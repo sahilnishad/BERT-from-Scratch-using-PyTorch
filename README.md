@@ -1,4 +1,4 @@
-# BERT from Scratch using PyTorch
+#  BERT from Scratch with PyTorch for PCA Embedding Visualization
 
 This project provides an implementation of the BERT model, as described in the paper "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", using PyTorch. In addition to replicating the model's foundational architecture, the project also features utilities for visualizing the embeddings, serving as a practical tool for those interested in understanding the inner workings of BERT.
 
