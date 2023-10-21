@@ -42,13 +42,13 @@ def main():
 
     if uploaded_file:
         uploaded_data = uploaded_file.read().decode('utf-8').splitlines()
+        st.success("Vocabulary built successfully!")
     else:
         st.warning("Using default vocabulary.")
         with open('data/default_vocab.txt', 'r') as file:
             uploaded_data = file.read().splitlines()
 
     vocab = build_vocab(uploaded_data)
-    st.success("Vocabulary built successfully!")
 
     VOCAB_SIZE = len(vocab)
     embedding_layer = BERTEmbedding(VOCAB_SIZE, N_SEGMENTS, MAX_LEN, EMBED_DIM, DROPOUT)
