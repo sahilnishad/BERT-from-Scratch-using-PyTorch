@@ -24,3 +24,9 @@ Explaination behind the plot for the example sentence of "The fox travels around
 * The word "fox" stands apart, suggesting its unique semantic meaning compared to other words in the sentence.
 * "world." and "travels" are positioned on the farther right. This could indicate a shared semantic space or similar context, as they are both related to movement or space.
 * The word "around" is placed distinctively at the top, possibly indicating its role as a preposition, setting the context for movement or direction.
+
+#
+### Streamlit App
+<img width="927" alt="424" src="https://github.com/sahilnishad/BERT-from-Scratch-with-PyTorch-for-PCA-Embedding-Visualization/assets/65019102/8ef3d57c-3683-41de-9b28-6f9295a59553">
+
+#
